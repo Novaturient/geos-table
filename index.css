@@ -1,12 +1,12 @@
 
 .t1 {
-    width: 900px;
+    width: 800px;
     table-layout: fixed;                                                                                        
 }
 
 .t1 .dt-title {
-    font-family:Arial, sans-serif;
-    font-size:14px;
+    font-family:Arial;
+    font-size:13px;
     font-weight:bold;
     vertical-align:top;
     text-align:left;
@@ -16,13 +16,13 @@
     border-collapse:collapse;
     border-spacing:0;
     table-layout: fixed; 
-    width: 900px;
+    width: 800px;
 }
 
 .t2v1 th {
   padding: 8px 4px;
-  font-family:Arial, sans-serif;
-  font-size:13px;
+  font-family:Arial;
+  font-size:12px;
   font-weight:bold;
   vertical-align:top;
 }
@@ -32,12 +32,12 @@
     border-collapse:collapse;
     border-spacing:0;
     table-layout: fixed; 
-    width: 900px;
+    width: 800px;
 }
 
 .t2 td {
-    font-family:Arial, sans-serif;
-    font-size:13px;
+    font-family:Arial;
+    font-size:11px;
     padding:10px 5px;
     overflow:hidden;
 }
@@ -57,13 +57,13 @@
 }
 
 .t3 {
-    width: 900px;
+    width: 800px;
     table-layout: fixed;                                                                                        
 }
 
 .t3 .summary {
-    font-family:Arial, sans-serif;
-    font-size:13px;
+    font-family:Arial;
+    font-size:11px;
     font-weight:bold;
     vertical-align:top;
     text-align:left;
@@ -74,23 +74,23 @@
   border-collapse:collapse;
   border-spacing:0;
   table-layout: fixed; 
-  width: 525px;
+  width: 425px;
   
 }
 
 .t4 th {
   border-bottom: 2px solid black;
   padding: 8px 4px;
-  font-family:Arial, sans-serif;
-  font-size:13px;
+  font-family:Arial;
+  font-size:11px;
   font-weight:bold;
   vertical-align:top;
   text-align:center;
 }
 
 .t4 td {
-  font-family:Arial, sans-serif;
-  font-size:13px;
+  font-family:Arial;
+  font-size:11px;
   padding:10px 5px;
   overflow:hidden;
   word-break:normal;
@@ -102,4 +102,37 @@
   font-weight:bold;
   text-align:center;
   vertical-align:top;
+}
+
+.t5 {
+  width: 425px;
+  table-layout: fixed;                                                                                        
+}
+
+.t5 .summary2 {
+  font-family:Arial;
+  font-size:11px;
+  font-weight:bold;
+  vertical-align:top;
+  text-align:left;
+}
+
+.t6 {
+  width: 265px;
+  table-layout: fixed;
+  font-family:Arial;
+  font-size:11px;    
+  float: right;
+  text-align:left;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 18%;
+}
+
+.t6 .abbrev {
+  font-family:Arial;
+  font-size:11px;
+  font-weight:bold;
+  vertical-align:top;
+  text-align:left;
 }
